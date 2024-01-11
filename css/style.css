@@ -5,8 +5,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     background-color: #21b786;
+    color: black;
 }
 
 .container {
@@ -36,16 +37,42 @@ html {
     }
 }
 
+.title-container {
+    margin-top: 10%;
+}
+
 .title {
-    font-size: 3em;
-    text-decoration: underline;
-    color: black;
-    margin-top: 5%;
+    font-size: 2.5em;
 }
 
 .coming-soon-text {
     font-style: italic;
-    font-size: 1.5em;
+    margin-bottom: 10%;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.x {
     color: black;
-    margin-bottom: 5%;
+    font-size: xxx-large;
+}
+
+.tiktok {
+    color: black;
+    font-size: xxx-large;
+    margin-left: 10%;
+}
+
+.linkedin {
+    color: black;
+    font-size: xxx-large;
+    margin-left: 10%;
+}
+
+.instagram {
+    color: black;
+    font-size: xxx-large;
+    margin-left: 10%;
 }
