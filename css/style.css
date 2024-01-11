@@ -1,0 +1,54 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #21b786;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.pulsing-logo {
+    width: 30%;
+    height: auto;
+    animation: pulse 2s infinite;
+    display: block;
+    margin: 0 auto;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-size: 3em;
+    color: black;
+    margin-top: 5%;
+}
+
+.coming-soon-text {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 5%;
+}
