@@ -5,7 +5,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: #21b786;
 }
 
@@ -21,7 +21,7 @@ html {
 .pulsing-logo {
     width: 30%;
     height: auto;
-    animation: pulse 2s infinite;
+    animation: pulse 4s infinite;
     display: block;
     margin: 0 auto;
 }
@@ -30,23 +30,20 @@ html {
     0%,
     100% {
         transform: scale(1);
-        opacity: 1;
     }
     50% {
-        transform: scale(1.1);
-        opacity: 0.7;
+        transform: scale(1.6);
     }
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
     font-size: 3em;
+    text-decoration: underline;
     color: black;
     margin-top: 5%;
 }
 
 .coming-soon-text {
-    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-size: 1.5em;
     color: black;
