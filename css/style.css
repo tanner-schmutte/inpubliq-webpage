@@ -53,11 +53,18 @@ html {
 .store-badges {
     display: flex;
     justify-content: center; 
-    gap: 10%; 
+    gap: 1%; 
 }
 
-.store-badge {
-    width: 150px;
+.apple-badge {
+    width: 125px;
+    height: auto;
+    margin: 0 10px;
+    opacity: 0.6;
+}
+
+.google-badge {
+    width: 155px;
     height: auto;
     margin: 0 10px;
     opacity: 0.6;
