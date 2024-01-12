@@ -45,10 +45,29 @@ html {
     font-size: 2.5em;
 }
 
+.store-container {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.store-badges {
+    display: flex;
+    justify-content: center; 
+    gap: 10%; 
+}
+
+.store-badge {
+    width: 150px;
+    height: auto;
+    margin: 0 10px;
+    opacity: 0.6;
+}
+
 .coming-soon-text {
     font-style: italic;
     margin-bottom: 10%;
 }
+
 .social-icons {
     display: flex;
     justify-content: center;
